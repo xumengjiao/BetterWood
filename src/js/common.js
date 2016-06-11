@@ -1,7 +1,7 @@
 define([],function(){
     return {
         transitionEnd:function(){
-            var el = document.createElement('element'),t;
+            var el = document.createElement('element'), t;
             var transitions = {
                 'WebkitTransform': 'webkitTransitionEnd',
                 'OTransform': 'oTransitionEnd',
